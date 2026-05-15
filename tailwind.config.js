@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Bangers', 'cursive'],
+        display: ['Schoolbell', 'cursive'],
         body : ['Inter', 'sans-serif']
     },
 
