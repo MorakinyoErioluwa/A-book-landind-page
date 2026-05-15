@@ -9,8 +9,8 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        display: ['Schoolbell', 'cursive'],
-        body: ['Inter', 'sans-serif'],
+        display: ['Schoolbell'],
+        body: ['Inter'],
       },
 
     },

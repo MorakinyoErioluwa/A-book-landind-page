@@ -554,6 +554,24 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'Schoolbell';
+
+  src: url('../fonts/Schoolbell-Regular.ttf') format('truetype');
+
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+
+  font-weight: 100 900;
+
+  font-style: normal;
+}
+
 .collapse {
   visibility: collapse;
 }
@@ -1144,18 +1162,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@font-face {
-  font-family: 'Schoolbell';
-
-  src: url('/fonts/schoolbell.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter';
-
-  src: url('/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
 }
 
 .hover\:-translate-y-1:hover {
