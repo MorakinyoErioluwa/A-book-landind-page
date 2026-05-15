@@ -555,11 +555,9 @@ video {
 }
 
 @font-face {
-  font-family: 'Bangers';
+  font-family: 'Schoolbell';
 
-  src: url('../fonts/Schoolbell-Regular.ttf') format('truetype');
-
-  font-weight: 100;
+  src: url('fonts/schoolbell.ttf') format('truetype');
 }
 
 @font-face {
