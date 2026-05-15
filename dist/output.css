@@ -554,22 +554,6 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: 'Schoolbell';
-
-  src: url('fonts/schoolbell.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter';
-
-  src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
-
-  font-weight: 100 900;
-
-  font-style: normal;
-}
-
 .collapse {
   visibility: collapse;
 }
@@ -590,10 +574,6 @@ video {
   inset: 0px;
 }
 
-.-top-3 {
-  top: -0.75rem;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -602,20 +582,8 @@ video {
   right: 0px;
 }
 
-.right-1\/2 {
-  right: 50%;
-}
-
-.right-8 {
-  right: 2rem;
-}
-
 .top-0 {
   top: 0px;
-}
-
-.top-full {
-  top: 100%;
 }
 
 .z-40 {
@@ -651,20 +619,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.block {
-  display: block;
 }
 
 .inline-block {
@@ -687,24 +647,12 @@ video {
   display: none;
 }
 
-.h-0 {
-  height: 0px;
-}
-
 .h-72 {
   height: 18rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-full {
   height: 100%;
-}
-
-.w-0 {
-  width: 0px;
 }
 
 .w-56 {
@@ -715,20 +663,8 @@ video {
   width: 18rem;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[20\%\] {
-  width: 20%;
-}
-
 .w-\[80\%\] {
   width: 80%;
-}
-
-.w-\[full\] {
-  width: full;
 }
 
 .w-full {
@@ -739,6 +675,10 @@ video {
   max-width: 42rem;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -747,25 +687,12 @@ video {
   max-width: 80rem;
 }
 
-.max-w-sm {
-  max-width: 24rem;
-}
-
 .max-w-xl {
   max-width: 36rem;
 }
 
-.grow {
-  flex-grow: 1;
-}
-
 .translate-x-0 {
   --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-1 {
-  --tw-translate-x: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -790,18 +717,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-none {
-  list-style-type: none;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -848,10 +763,6 @@ video {
   gap: 1.5rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
@@ -860,12 +771,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .self-center {
@@ -904,18 +809,6 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-b-\[20px\] {
-  border-bottom-width: 20px;
-}
-
-.border-l-\[14px\] {
-  border-left-width: 14px;
-}
-
-.border-r-\[20px\] {
-  border-right-width: 20px;
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
@@ -928,24 +821,6 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-b-white {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-l-transparent {
-  border-left-color: transparent;
-}
-
-.border-r-transparent {
-  border-right-color: transparent;
-}
-
-.bg-\[\#91D3C6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(145 211 198 / var(--tw-bg-opacity, 1));
 }
 
 .bg-black {
@@ -981,38 +856,9 @@ video {
   background-color: rgb(253 224 71 / 0.9);
 }
 
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
-}
-
 .bg-yellow-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 252 232 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/image-graphic-design\.jpg\)\] {
-  background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/image-graphic-design.jpg);
-}
-
-.bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/image-photography\.jpg\)\] {
-  background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/image-photography.jpg);
-}
-
-.bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/images\/mobile\/image-header\.jpg\)\] {
-  background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.fill-current {
-  fill: currentColor;
 }
 
 .object-contain {
@@ -1025,17 +871,8 @@ video {
      object-fit: cover;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-3 {
@@ -1068,11 +905,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1101,16 +933,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-\[70\%\] {
-  padding-top: 70%;
-  padding-bottom: 70%;
-}
-
-.py-\[90\%\] {
-  padding-top: 90%;
-  padding-bottom: 90%;
 }
 
 .pb-16 {
@@ -1153,14 +975,6 @@ video {
   line-height: 1;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1184,10 +998,6 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -1208,14 +1018,6 @@ video {
   line-height: 0.95;
 }
 
-.leading-\[30px\] {
-  line-height: 30px;
-}
-
-.leading-\[50px\] {
-  line-height: 50px;
-}
-
 .leading-none {
   line-height: 1;
 }
@@ -1230,20 +1032,6 @@ video {
 
 .tracking-wide {
   letter-spacing: 0.025em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
-.text-\[\#343640\] {
-  --tw-text-opacity: 1;
-  color: rgb(52 54 64 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#BFBEC0\] {
-  --tw-text-opacity: 1;
-  color: rgb(191 190 192 / var(--tw-text-opacity, 1));
 }
 
 .text-amber-950 {
@@ -1262,16 +1050,6 @@ video {
 
 .text-black\/80 {
   color: rgb(0 0 0 / 0.8);
-}
-
-.text-green-900 {
-  --tw-text-opacity: 1;
-  color: rgb(20 83 45 / var(--tw-text-opacity, 1));
-}
-
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -1368,6 +1146,18 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@font-face {
+  font-family: 'Schoolbell';
+
+  src: url('/fonts/schoolbell.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
 .hover\:-translate-y-1:hover {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1405,28 +1195,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
-}
-
-.hover\:border:hover {
-  border-width: 1px;
-}
-
-.hover\:border-yellow-200:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(254 240 138 / var(--tw-border-opacity, 1));
-}
-
-.hover\:bg-transparent:hover {
-  background-color: transparent;
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .hover\:opacity-70:hover {
   opacity: 0.7;
 }
@@ -1444,19 +1212,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .md\:mt-60 {
-    margin-top: 15rem;
-  }
-
-  .md\:mt-\[30\%\] {
-    margin-top: 30%;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1469,16 +1224,16 @@ video {
     display: none;
   }
 
-  .md\:h-\[980px\] {
-    height: 980px;
-  }
-
   .md\:w-80 {
     width: 20rem;
   }
 
-  .md\:w-\[full\] {
-    width: full;
+  .md\:max-w-2xl {
+    max-width: 42rem;
+  }
+
+  .md\:max-w-3xl {
+    max-width: 48rem;
   }
 
   .md\:max-w-4xl {
@@ -1517,24 +1272,6 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:bg-cover {
-    background-size: cover;
-  }
-
-  .md\:p-\[80px\] {
-    padding: 80px;
-  }
-
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .md\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .md\:pb-20 {
     padding-bottom: 5rem;
   }
@@ -1564,29 +1301,9 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:order-1 {
-    order: 1;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .lg\:mt-\[70px\] {
-    margin-top: 70px;
-  }
-
-  .lg\:block {
-    display: block;
   }
 
   .lg\:flex {
@@ -1597,32 +1314,8 @@ video {
     display: none;
   }
 
-  .lg\:h-\[6\%\] {
-    height: 6%;
-  }
-
-  .lg\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .lg\:h-\[700px\] {
-    height: 700px;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
   .lg\:w-\[380px\] {
     width: 380px;
-  }
-
-  .lg\:w-\[8\%\] {
-    width: 8%;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 
   .lg\:max-w-6xl {
@@ -1631,10 +1324,6 @@ video {
 
   .lg\:max-w-7xl {
     max-width: 80rem;
-  }
-
-  .lg\:flex-1 {
-    flex: 1 1 0%;
   }
 
   .lg\:grid-cols-3 {
@@ -1649,18 +1338,6 @@ video {
     grid-template-columns: 4.89fr 2.5fr;
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
-  }
-
-  .lg\:items-center {
-    align-items: center;
-  }
-
   .lg\:justify-start {
     justify-content: flex-start;
   }
@@ -1669,97 +1346,12 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .lg\:gap-6 {
-    gap: 1.5rem;
-  }
-
   .lg\:gap-8 {
     gap: 2rem;
   }
 
   .lg\:self-start {
     align-self: flex-start;
-  }
-
-  .lg\:bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/image-desktopphotography\.jpg\)\] {
-    background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/image-desktopphotography.jpg);
-  }
-
-  .lg\:bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/image-graphic-desktopdesign\.jpg\)\] {
-    background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/image-graphic-desktopdesign.jpg);
-  }
-
-  .lg\:bg-\[url\(\/src\/sunnyside-agency-landing-page-main\/sunnyside-agency-landing-page-main\/images\/desktop\/image-desktopheader\.jpg\)\] {
-    background-image: url(/src/sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/images/desktop/image-desktopheader.jpg);
-  }
-
-  .lg\:bg-contain {
-    background-size: contain;
-  }
-
-  .lg\:bg-cover {
-    background-size: cover;
-  }
-
-  .lg\:bg-center {
-    background-position: center;
-  }
-
-  .lg\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-
-  .lg\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .lg\:p-\[60px\] {
-    padding: 60px;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
-  .lg\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .lg\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .lg\:py-\[50\%\] {
-    padding-top: 50%;
-    padding-bottom: 50%;
-  }
-
-  .lg\:py-\[60\%\] {
-    padding-top: 60%;
-    padding-bottom: 60%;
   }
 
   .lg\:text-left {

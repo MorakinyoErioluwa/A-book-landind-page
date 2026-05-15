@@ -4,16 +4,17 @@ module.exports = {
     "./*.html",
     "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
+
   theme: {
     extend: {
+
       fontFamily: {
         display: ['Schoolbell', 'cursive'],
-        body : ['Inter', 'sans-serif']
-    },
+        body: ['Inter', 'sans-serif'],
+      },
 
     },
   },
+
   plugins: [],
 }
-
-
